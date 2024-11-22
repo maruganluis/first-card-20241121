@@ -8,8 +8,10 @@
 
 /** RESETS END **/
 
-html {
+body {
     font-size: 1rem;
+    background-color: #eee;
+    line-height: 1.43;
 }
 
 /** ARTICLE **/
@@ -89,3 +91,47 @@ article {
 
 
 /** SECTION **/
+
+.card__information-container {
+    max-width: 320px;
+    background-color: #fff;
+    padding-top: 0.5rem;
+}
+
+.card__title-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card__title {
+    font-weight: 550;
+}
+
+.card__rating-container {
+    display: flex;
+    gap: 4px;
+}
+
+
+.card__rating-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.card__subtitle-container {
+    color: grey;
+}
+
+/** PRICING **/
+
+.card__price {
+    display: flex;
+    gap: 4px;
+    padding-top: 0.4rem;
+    max-width: 320px;
+}
+
+.card__price-dollars {
+    font-weight: 600;
+}
